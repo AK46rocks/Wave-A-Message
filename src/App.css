@@ -1,3 +1,7 @@
+body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
 .mainContainer {
   display: flex;
   justify-content: center;
@@ -29,6 +33,49 @@
   margin-top: 16px;
   padding: 8px;
   border: 0;
+  outline: none;
   border-radius: 5px;
   
 }
+p{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.message_sec{
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.msg{
+  background: rgb(184,0,255);
+  background: linear-gradient(279deg, rgba(184,0,255,1) 0%, rgba(15,101,203,1) 100%);
+  padding: 10px;
+  color: beige;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.address{
+  margin-left: 190px;
+  white-space: nowrap;
+  color: black ; 
+  width: 100px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  }
+  i{
+    font-size: 20px;
+  }
+
+.time{
+  margin-left: 400px;
+  flex-direction: column;
+  white-space: nowrap;
+  color: gray; 
+  width: 170px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  }
